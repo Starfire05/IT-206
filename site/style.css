@@ -1,0 +1,69 @@
+h1 {
+    color: rgb(199, 199, 16);
+}
+.a {
+    background-color: rgb(119, 119, 253);
+}
+.b {
+    background-color: rgb(94, 197, 94);
+}
+.c {
+    background-color: orange;
+}
+*  {
+    box-sizing: border-box;
+}
+.cont1 {
+    float: left;
+    margin: 10px;
+    border: 1px solid rgb(176, 234, 253);
+    background-color: rgb(176, 234, 253);
+    padding: 15px;
+}
+.cont2 {
+    float: left;
+    margin: 10px;
+    border: 1px solid rgb(155, 253, 155);
+    background-color: rgb(155, 253, 155);
+    padding: 15px;
+}
+.cont3 {
+    float: left;
+    margin: 10px;
+    border: 1px solid rgb(252, 205, 119);
+    background-color: rgb(252, 205, 119);
+    padding: 15px;
+}
+@media (min-width: 992px) and (max-width: 1500px) {
+    .cont1{
+        width: 31%;
+    }
+    .cont2{
+        width: 31%;
+    }
+    .cont3{
+        width: 31%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .cont1{
+        width: 46.5%;
+    }
+    .cont2{
+        width: 46.5%;
+    }
+    .cont3{
+        width: 95%;
+    }
+}
+@media (max-width: 767px) {
+    .cont1{
+        width: 95%;
+    }
+    .cont2{
+        width: 95%;
+    }
+    .cont3{
+        width: 95%;
+    }
+}
